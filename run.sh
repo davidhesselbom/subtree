@@ -2,6 +2,7 @@
 
 # TODO: Consider changing "main" to "application", "sub" to "library", "subt" to "libraryrepo" or similar,
 # to avoid the confusion between "sub" and "subt", without using the word "subtree" for either the repo or the remote.
+# TODO: What happens if we remove all the "--squash -m" stuff?
 
 gitdiffsubtree() {
     # Diff the master branch in the remote "subt" with the "sub" folder in the local master branch (at least, that's what I think this does...)
