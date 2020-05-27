@@ -5,7 +5,8 @@
 # TODO: What happens if we remove all the "--squash -m" stuff?
 
 gitdiffsubtree() {
-    # Diff the master branch in the remote "subt" with the "sub" folder in the local master branch (at least, that's what I think this does...)
+    # Diff the master branch in the remote "subt" with the "sub" folder in the local master branch
+    # (at least, that's what I think this does...)
     git diff subt/master master:sub
 
     # [[ $(command) ]] returns "0" (true) if the command outputs anything
